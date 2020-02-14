@@ -1,0 +1,3 @@
+<view class="flex">
+    <music wx:for="{{musics}}" data="{{item}}" wx:key="item.id"></music>
+</view>

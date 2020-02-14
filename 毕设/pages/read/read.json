@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "read":"/components/ReadItem/ReadItem"
+  },
+  "navigationBarBackgroundColor":"#d4237a"
+}

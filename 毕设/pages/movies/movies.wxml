@@ -1,0 +1,4 @@
+<view class="top">
+    {{title}}
+</view>
+<movies wx:for="{{movies}}" wx:key="item" data="{{item}}"></movies>

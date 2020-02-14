@@ -1,0 +1,29 @@
+/* components/MoviesItem/MoviesItem.wxss */
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20rpx 30rpx;
+    font-size: 12px;
+}
+.title{
+    font-size: 14px;
+    color:#333;
+    font-weight: bold;
+}
+.content{
+    width:450rpx;
+    color:#666;
+}
+.rating{
+    color:#DB2000;
+    font-weight: bold;
+}
+.img image{
+    width: 150rpx;
+    height: 150rpx;
+}
+.img{
+    width: 150rpx;
+    margin-right: 15rpx;
+}

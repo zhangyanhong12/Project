@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "music":"/components/MusicItem/MusicItem"
+  },
+  "navigationBarBackgroundColor": "#DB2000",
+  "navigationBarTitleText": "网易云音乐"
+}

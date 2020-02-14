@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "movies":"/components/MoviesItem/MoviesItem"
+  },
+  "navigationBarBackgroundColor": "#405F80",
+  "navigationBarTitleText": "电影"
+}

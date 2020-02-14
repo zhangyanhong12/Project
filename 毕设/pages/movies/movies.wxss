@@ -1,0 +1,9 @@
+/* pages/movies/movies.wxss */
+.top{
+    height: 100rpx;
+    line-height: 100rpx;
+    border-bottom: 2px solid #eee;
+    padding:10rpx 150rpx;
+    color:rgb(139, 132, 132);
+    font-weight: bold;
+}

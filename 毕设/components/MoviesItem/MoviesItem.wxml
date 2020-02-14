@@ -1,0 +1,15 @@
+<view class="item" bind:tap="handleClick">
+    <view class="img">
+        <image src="{{data.images.large}}"></image>
+    </view>
+    <view class="content">
+        <view class="title">
+            {{data.title}}
+        </view>
+        <view>导演：{{data.directors[0].name}}</view>
+        <view >主演：<text wx:for="{{data.casts}}">{{item.name}}/</text></view>
+    </view>
+    <view class="rating">
+      {{data.rating.average}}
+    </view>
+</view>

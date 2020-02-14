@@ -1,0 +1,2 @@
+
+<read wx:for="{{book}}" wx:key="item.id" data="{{item}}"></read>

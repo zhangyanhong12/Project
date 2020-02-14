@@ -1,0 +1,10 @@
+<wxs src="../../utils/util.wxs" module="tools"></wxs>
+<view class="item" bind:tap="handleMusic">
+    <image class="img" src="{{data.coverImgUrl}}" >   
+    </image>
+    <text class="title">{{tools.format(data.name)}}</text>
+    <view class="text">
+        <image class="text-img" src="/images/tab/p0.png"></image>
+        <text>{{data.playCount}}</text>
+    </view>
+</view>

@@ -1,0 +1,52 @@
+function formatStar(value){
+    if(value){
+        var value = value.slice(0,1)
+            var arr = []
+            for(var i=1;i<=5;i++){
+                if(i<=value){
+                    arr.push(1)
+                }else{
+                    arr.push(0)
+                }
+            }
+        return arr;
+    }
+}
+function format(v){
+    if(v){
+        if(v.length>9){
+            var v= v.slice(0,9)+"..."
+        }
+        return v;
+    }
+  
+}
+function formats(v){
+    if(v){
+        if(v.length>30){
+            var v= v.slice(0,30)+"..."
+        }
+        return v;
+    }
+}
+function time(oDate){
+    if(oDate){ 
+        var year = oDate.getFullYear();
+        var month = oDate.getMonth()+1;
+        if(month<10){
+            month="0"+month
+        }
+        var day = oDate.getDay()
+        if(day<10){
+            day="0"+day
+        }
+        var sum = year+"/"+month+"/"+day;
+        return sum
+    }
+}
+module.exports={
+    formatStar:formatStar,
+    format:format,
+    formats:formats,
+    time:time
+}

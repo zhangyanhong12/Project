@@ -1,0 +1,55 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/music/music",
+    "pages/movie/movie",
+    "pages/movies/movies",
+    "pages/movie-detail/movie-detail",
+    "pages/musics/musics",
+    "pages/music-detail/music-detail",
+    "pages/play/play",
+    "pages/news/news",
+    "pages/read/read"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor":"#9ab5d0",
+    "navigationBarTitleText": "多媒体社区",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#666",
+    "selectedColor": "#9ab5d0",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/music/music",
+        "text": "音乐",
+        "iconPath": "/images/tab/smusic.png",
+        "selectedIconPath": "/images/tab/music.png"
+      },
+      {
+        "pagePath": "pages/movie/movie",
+        "text": "电影",
+        "iconPath": "/images/tab/dianying.png",
+        "selectedIconPath": "/images/tab/dianying_hl.png"
+      },{
+        "pagePath": "pages/news/news",
+        "text": "新闻",
+        "iconPath": "/images/tab/news.png",
+        "selectedIconPath": "/images/tab/snews.png"
+      },{
+        "pagePath": "pages/read/read",
+        "text": "小说",
+        "iconPath": "/images/tab/read.png",
+        "selectedIconPath": "/images/tab/sread.png"
+      }
+    ]
+  },
+  
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "requiredBackgroundModes": ["audio", "location"]
+  
+}

@@ -1,0 +1,18 @@
+/* components/MovieItem/MovieItem.wxss */
+.content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 20rpx;
+    background: #eee;
+    color:#333;
+    line-height: 100rpx;
+    height: 100rpx;
+    margin:20rpx 20rpx;
+}
+.name{
+    font-size: 14px;
+}
+.content .more{
+    font-size: 14px;
+}

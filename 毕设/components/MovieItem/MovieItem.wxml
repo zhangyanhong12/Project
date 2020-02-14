@@ -1,0 +1,8 @@
+<view class="content">
+    <view class="name">
+        {{data}}
+    </view>
+    <view class="more" bind:tap="handleClick">
+        更多>
+    </view>
+</view>

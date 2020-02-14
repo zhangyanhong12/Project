@@ -1,0 +1,10 @@
+
+<view class="item" wx:for="{{musics}}" wx:for-item="list" wx:key="list.id">
+    <view class="title">
+        <text>{{list.title}}</text>
+        <text class="more" data-url="{{list.subTitle}}" data-title="{{list.title}}" bind:tap="handleClick">更多></text>
+    </view>
+    <view class="flex">
+        <music wx:for="{{list.data}}" data="{{item}}" wx:key="item.id"></music>
+    </view>
+</view>

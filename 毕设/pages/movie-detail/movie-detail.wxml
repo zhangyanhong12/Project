@@ -1,0 +1,53 @@
+<wxs src="../../utils/util.wxs" module="tools"></wxs>
+<view class="container">
+    <view class="head">
+        <image class="bg" src="{{movie.images.small}}"></image>
+        <view class="blur">
+          <view class="blur-name">{{movie.title}}</view>
+          <view class="country">{{movie.countries}}·{{movie.year}}</view>
+          <view class="text">
+                <txet class="number">{{movie.collect_count}}</txet>
+                <text>人喜欢</text>
+                <txet class="number-name">{{movie.comments_count}}</txet>
+                <text>条评论</text>
+                <view class="img">
+                    <image src="{{movie.images.small}}"></image>  
+                </view>
+                <view class="blur-text">{{movie.original_title}}</view>
+          </view>
+        </view>
+    </view>
+    <view class="content">
+        <view class="content-text">
+            <view class="rating">评分:</view>
+            <view class="photo">
+                <image src="{{item==1?'/images/icon/star.png':'/images/icon/none-star.png'}}" wx:for="{{tools.formatStar(movie.rating.stars)}}"></image>
+                {{movie.rating.average}}
+            </view>
+        </view>
+        <view class="content-text">
+            <view class="rating">导演:</view>
+            <view class="photo">{{movie.writers[0].name}}</view>
+        </view>
+        <view class="content-text">
+            <view class="rating">影人:</view>
+            <view class="photo"><text wx:for="{{movie.casts}}" wx:key="item.id">{{item.name}}</text></view>
+        </view>
+        <view class="content-text">
+            <view class="rating">类型:</view>
+            <view class="photo">{{movie.genres}}</view>
+        </view>
+    </view>
+    <view class="nav">
+        <view class="nav-title">剧情简介</view>
+        <view>{{movie.summary}}</view>
+      </view>
+</view>
+<scroll-view class="scroll" scroll-x="{{x}}">
+    <view class="src" wx:for="{{movie.casts}}" wx:key="item.id">
+        <view class="item">
+            <image src="{{item.avatars.small}}"></image>
+        </view>
+        <view class="name">{{item.name}}</view>
+    </view>
+</scroll-view>

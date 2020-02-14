@@ -1,0 +1,89 @@
+/* pages/play/play.wxss */
+.photo image{
+    position: absolute;
+    top:230rpx;
+    left:22%;
+    width: 500rpx;
+    height: 500rpx;
+    animation-play-state: running;
+}
+.shift{
+    animation: circle 4s infinite linear;
+}
+.unshift{
+animation-play-state: paused;
+}
+@keyframes circle{
+    0%{
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.move{
+    animation: move 2s forwards;
+}
+@keyframes move{
+   0%{
+       transform: rotate(-30deg);
+   }
+   100%{
+       transform: rotate(0deg);
+   }
+}
+.unmove{
+    animation: unmove 2s forwards;
+}
+@keyframes unmove{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-30deg);
+    }
+}
+.line image{
+    top:-20rpx;
+     left:50%;
+     transform: translateX(-50%);
+     position: absolute;
+     width:200rpx;
+     height: 350rpx;
+     z-index:100;
+     transform: rotate(-30deg);
+     transform-origin: 26px 17px;
+}
+.play image{
+    position: absolute;
+    width: 150rpx;
+    height: 150rpx;
+    top:800rpx;
+    left:50%;
+    transform: translateX(-50%);
+   
+}
+.tai image{
+    height: 1180rpx;
+}
+.ming image{
+    position: absolute;
+    z-index:200;
+     width: 320rpx;
+     height: 320rpx;
+     border-radius: 50%;
+     top:320rpx;
+     left:34%;
+}
+.tai{
+    opacity: .6;
+    background: #666;
+}
+.name{
+    position: absolute;
+    top:0;
+    left:50rpx;
+}

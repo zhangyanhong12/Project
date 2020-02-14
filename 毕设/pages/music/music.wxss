@@ -1,0 +1,11 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding:0 20rpx;
+    line-height: 60rpx;
+    color:#666;
+    font-size: 28rpx;
+}
+.more{
+    color:#B3D4DB;
+}

@@ -1,0 +1,38 @@
+.img image{
+    width: 150rpx;
+    height: 150rpx;
+}
+.img{
+    width: 150rpx;
+    margin-right: 15rpx;
+}
+.content{
+    width:450rpx;
+    color:#666;
+}
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20rpx 30rpx;  
+}
+.title{
+    font-size: 14px;
+
+}
+.dec{
+    font-size: 12px;
+    color:#666;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+    color:#aaa;
+}
+.source,.text{
+    color:red;
+}
+.text{
+    margin-right: 10rpx;
+}

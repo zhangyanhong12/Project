@@ -1,0 +1,23 @@
+<wxs src="../../utils/util.wxs" module="tools"></wxs>
+<view class="item">
+    <view class="img">
+        <image src="{{data.headpic}}"></image>
+    </view>
+    <view class="content">
+        <view class="title">
+            {{tools.format(data.title)}}
+        </view>
+        <view class="dec">
+            {{tools.formats(data.description)}}
+        </view>
+        <view class="nav">
+           <view class="time">
+               <text class="text">by:{{data.auto}}</text>
+               {{tools.time(data.publishtime)}}
+           </view>
+           <view class="source">
+               {{data.source}}
+           </view>
+        </view>
+    </view>
+</view>

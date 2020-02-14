@@ -1,0 +1,39 @@
+/* pages/music-detail/music-detail.wxss */
+.img image{
+    width:100%;
+    height: 400rpx;
+}
+.img{
+    background: #eee;
+    height: 500rpx;
+}
+.play{
+    
+    width:100%;
+    height:80rpx;
+    line-height: 80rpx;
+    padding: 0 50rpx;
+}
+.content .bg{
+    width: 150rpx;
+}
+.bg image{
+    width: 150rpx;
+    height: 150rpx;
+}
+.content-img{
+    width:30rpx;
+    height: 30rpx;
+}
+.content{
+    padding:30rpx 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom:1px solid #eee;
+}
+.name{
+    font-size:14px;
+    color:#666;
+    width:400rpx;
+}

@@ -1,0 +1,26 @@
+/* components/MusicItem/MusicItem.wxss */
+.img{
+    width:200rpx;
+    height: 280rpx;
+}
+.item{
+    width: 200rpx;
+    position: relative;
+}
+.title{
+    font-size: 26rpx;
+}
+.text-img{
+    width:35rpx;
+    height: 35rpx;
+}
+.text{
+    position: absolute;
+    top:5rpx;
+    right: 5rpx;
+    color:#fff;
+    font-size: 10px;
+}
+.item{
+    margin-top:20rpx;
+}

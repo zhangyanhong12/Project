@@ -1,0 +1,13 @@
+<swiper indicator-dots="{{indicatorDots}}" indicator-color="{{indicatorDots}}" autoplay="{{autoplay}}" 
+indicator-active-color="{{active}}">
+    <swiper-item wx:for="{{subjects}}" wx:key="item">
+        <image src="{{item.images.small}}"></image>
+    </swiper-item>
+</swiper>
+<view class="item">
+    <view class="name">
+        豆瓣电影榜单集合
+    </view>
+    <text>最新，最IN的影视信息收集~</text>
+</view>
+<movie wx:for="{{arr}}" wx:key='item' data="{{item}}" class="i" index="{{index}}" bind:toggle="Toggle"></movie>

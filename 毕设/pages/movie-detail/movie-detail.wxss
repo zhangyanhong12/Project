@@ -1,0 +1,114 @@
+/* pages/movie-detail/movie-detail.wxss */
+.bg{
+    width:100%;
+    height: 400rpx;
+}
+.head{
+    position: relative;
+}
+.head .blur{
+    position: absolute;
+    width:100%;
+    height: 400rpx;
+    background:rgba(51, 51, 51, .3) ;
+    left:0;
+    top:0;
+    backdrop-filter: blur(10px);
+    padding:0 50rpx;
+}
+.number,.number-name{
+    color:#DB2000;
+}
+.number-name{
+    margin-left:50rpx;
+}
+.text text{
+    margin-left: 30rpx;
+}
+.text{
+    font-size: 12px;
+    margin-top:80rpx;
+    color:#666;
+    font-weight: 300;
+}
+.blur-name,.country{
+    color: #fff;
+    margin-top:50rpx;
+}
+.blur-name{
+    font-size: 18px;
+    font-weight: 600;
+}
+.country{
+    font-size: 14px;
+    font-weight: 300;
+}
+.img{
+    position: absolute;
+    top:300rpx;
+    right: 150rpx;
+}
+.img image{
+    width:150rpx;
+    height: 200rpx;
+}
+.blur-text{
+    position: absolute;
+    top:450rpx;
+    left:50rpx;
+    font-size: 14px;
+    color: #666;
+}
+.photo image{
+    width:30rpx;
+    height: 30rpx;
+    margin-right: 20rpx;
+}
+.rating{
+    width: 150rpx;
+}
+.photo{
+    flex: 2;
+}
+.content{
+    padding:100rpx 50rpx;
+    margin-top:50rpx;
+    border-bottom: 1px solid  rgb(172, 170, 170);
+}
+.content-text{
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    font-size: 16px;
+}
+.nav{
+    padding:50rpx 50rpx;
+    font-size: 14px;
+    color:rgb(172, 170, 170);
+    border-bottom:1px solid rgb(172, 170, 170);
+    margin-bottom: 20rpx;
+}
+.nav-title{
+    color:rgb(187, 185, 185);
+    margin-bottom: 20rpx;
+}
+.item image{
+    width:200rpx;
+    height: 270rpx;
+}
+.item{
+    width:200rpx;
+}
+.scroll{
+    white-space: nowrap;
+}
+.scroll .src{
+    display:inline-block ;
+    margin-right: 20rpx;
+    margin-top: 20rpx;
+}
+.name{
+    
+    font-size: 12px;
+    color:rgb(196, 187, 187);
+}

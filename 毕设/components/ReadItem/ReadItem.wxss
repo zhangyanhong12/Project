@@ -1,0 +1,35 @@
+/* components/ReadItem/ReadItem.wxss */
+.flex,.nav{
+    display: flex;
+    justify-content: space-between;
+
+}
+.flex{
+    margin-bottom: 20rpx;
+    align-items: center;
+}
+.img{
+    width:200rpx;
+    height: 250rpx;
+    margin-right: 30rpx;
+}
+.img image{
+    width:200rpx;
+    height: 250rpx;
+}
+.content{
+    width:450rpx;
+    padding-right: 20rpx;
+    color:#666;
+    font-size: 12px;
+}
+.title{
+    color:#333;
+    font-size: 14px;
+}
+.hot{
+    color:RED;
+}
+.major{
+    font-size: 10px;
+}

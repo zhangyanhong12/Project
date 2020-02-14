@@ -1,0 +1,18 @@
+<view class="container">
+    <view class="tai">
+        <image src="{{pic}}"></image>
+    </view>
+    <view class="line">
+        <image src="/images/music/shou.png" class="{{isPlay?'move':'unmove'}}"></image>
+    </view>
+    <view class="ming">
+        <image src="{{pic}}"class="{{isPlay?'shift':'unshift'}}"></image>
+    </view>
+    <view class="photo">
+        <image src="/images/music/pan.png" ></image>
+        <text class="name">{{name}}</text>
+    </view>
+    <view class="play" bind:tap="handleClick" data-url="{{item.url}}">
+        <image src="{{isPlay?'/images/icon/paulse.png':'/images/icon/play.png'}}" ></image>
+    </view> 
+</view>

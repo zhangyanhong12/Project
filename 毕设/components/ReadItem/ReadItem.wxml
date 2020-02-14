@@ -1,0 +1,24 @@
+<wxs src="../../utils/util.wxs" module="tools"></wxs>
+<view class="flex">
+  <view class="img">
+        <image   src="{{data.img}}"></image>
+  </view>
+  <view class="content">
+        <view class="title">
+            {{data.title}}
+        </view>
+        <view class="info">
+            {{tools.formats(data.shortIntro)}}
+        </view>
+        <view class="nav">
+                <view class="author">
+                        <text>{{data.author}}</text>
+                        <text class="hot">{{data.latelyFollower}}</text>人气
+                </view>
+                <view class="major">
+                    <text>{{data.majorCate}}</text>
+                </view>
+        </view>
+        
+    </view>
+</view>
