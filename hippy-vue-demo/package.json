@@ -21,7 +21,7 @@
     "@hippy/vue": "^2.0.1",
     "@hippy/vue-native-components": "^2.0.1",
     "@hippy/vue-router": "^2.0.1",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "core-js": "^3.4.3",
     "vant": "^2.4.7",
     "vue": "^2.6.10",
